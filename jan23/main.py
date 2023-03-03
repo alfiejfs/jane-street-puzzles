@@ -40,7 +40,7 @@ while True:
         new = (new[0] + k, new[1] + k, new[2] + k, new[3] + k)
 
     # Checking if we have surpassed the bound on d (which will be the largest)
-    if new[3]> bound:
+    if new[3] > bound:
         print(f"Final Result: {last}")
         exit()
 
